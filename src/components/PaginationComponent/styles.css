@@ -1,0 +1,29 @@
+.button {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    width: 22px;
+    height: 22px;
+
+    border: none;
+    margin: .4em;
+
+    cursor: pointer;
+    background-color: none;
+    border-radius: 6px;
+    padding: 5px;
+    align-items: center;
+    background-color: #101946;
+
+    color: #fff;
+    font-weight: bold;
+    
+    transition: all ease-in-out .5s;
+}
+
+.button:hover {
+    background-color: #050a20;
+}
