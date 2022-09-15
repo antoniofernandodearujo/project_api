@@ -12,8 +12,8 @@ O app tem como objetivo apresentar os repositórios, utilizando uma janela modal
 ![Imagem 1web](https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img1_web.png)
 ### Layout mobile
 <div display=flex flex-direction=row>
-  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile1.jpeg" width="350px"/>
-  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile2.jpeg" width="350px"/>
+  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile1.jpeg" width="330px"/>
+  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile2.jpeg" width="330px"/>
 </div>
 
 ## 💻 Tecnologias utilizadas
