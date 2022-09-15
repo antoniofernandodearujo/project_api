@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+# project_api
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/antoniofernandodearujo/app_orcamento_pessoal/blob/main/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 👀 Sobre o projeto
+Projeto realizado com intuito de praticar o consumo de api, api usada é a do github, com axios, que até antes era feito com fetch do javascript, além de desenvolver mais hardskils em relação a biblioteca React.
 
-## Available Scripts
+O app tem como objetivo apresentar os repositórios, utilizando uma janela modal de um determinado usuário, trazendo também algumas outras informações, também têm como pesquisar por um repositório em especifíco, além de uma paginação.
 
-In the project directory, you can run:
+**Ahh! Só uma observação se o usuário tiver mais de 20 repositórios, a aplicação traz só os 20 mais atuais.**
 
-### `npm start`
+### Layout Web
+![Imagem 1web](https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img1_web.png)
+### Layout mobile
+<div display=flex flex-direction=row>
+  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile1.jpeg" width="350px"/>
+  <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile2.jpeg" width="350px"/>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Tecnologias utilizadas
+### Front end
+- React / styled-components / CSS
+- Axios (consumir a api)
+- react-modal
+- Api do github (https://api.github.com/users/your-name_user)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Servidor
+- github pages
 
-### `npm test`
+## 👨‍💻👩‍💻Como executar o projeto
+### Requisitos: NodeJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# clonar o repositório
+git clone https://github.com/antoniofernandodearujo/project_api
 
-### `npm run build`
+# instalar a pasta node_modules com as dependências para rodar o projeto
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# rodar a aplicação
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧑🏾‍💻 Autor
+Antônio Fernando de Araújo Silva
+### Como entrar em contato ?
+Caso queira discutir ou surgiu alguma dúvida pode estar entrando em contato:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# project_api_github
+[![Gmail](https://img.shields.io/badge/Gmail-darkred?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afas@academico.ufpb.br)
