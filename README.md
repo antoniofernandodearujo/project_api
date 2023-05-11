@@ -1,12 +1,12 @@
 # project_api
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/antoniofernandodearujo/app_orcamento_pessoal/blob/main/LICENSE)
 
-## 👀 Sobre o projeto
-Projeto realizado com intuito de praticar o consumo de api, api usada é a do github, com axios, que até antes era feito com fetch do javascript, além de desenvolver mais hardskils em relação a biblioteca React.
+## 👀 About the project
+Project carried out with the intention of practicing the consumption of api, the api used is the github one, with axios, which even before was done with javascript fetch, in addition to developing more hardskils in relation to the React library.
 
-O app tem como objetivo apresentar os repositórios, utilizando uma janela modal de um determinado usuário, trazendo também algumas outras informações, também têm como pesquisar por um repositório em especifíco, além de uma paginação.
+The app aims to present the repositories, using a modal window of a given user, also bringing some other information, they also have a way to search for a specific repository, in addition to a pagination.
 
-**Ahh! Só uma observação se o usuário tiver mais de 20 repositórios, a aplicação traz só os 20 mais atuais.**
+**Ahhh! Just an observation if the user has more than 20 repositories, the application only brings the 20 most current ones.**
 
 ### Layout Web
 ![Imagem 1web](https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img1_web.png)
@@ -16,33 +16,31 @@ O app tem como objetivo apresentar os repositórios, utilizando uma janela modal
   <img  src="https://github.com/antoniofernandodearujo/project_api/blob/main/imgs/img_mobile2.jpeg" width="330px"/>
 </div>
 
-## 💻 Tecnologias utilizadas
+## 💻 Technologies used
 ### Front end
 - React / styled-components / CSS
-- Axios (consumir a api)
+- Axios (consume the api)
 - react-modal
 - Api do github (https://api.github.com/users/your-name_user)
 
-### Servidor
-- github pages
-
-## 👨‍💻👩‍💻Como executar o projeto
-### Requisitos: NodeJS
-
+## 👨‍💻👩‍💻 How to run the project
+### Requisitos: NodeJS (if you don't have it installed on your machine, officially install: https://nodejs.org/en/download)
+### - Clone the repository
 ```bash
-# clonar o repositório
 git clone https://github.com/antoniofernandodearujo/project_api
-
-# instalar a pasta node_modules com as dependências para rodar o projeto
+```
+### - Install the node_modules folder with the dependencies to run the project
+```bash
 npm install
-
-# rodar a aplicação
+```
+### - Run the application in your favorite browser
+```bash
 npm start
 ```
 
-## 🧑🏾‍💻 Autor
+## 🧑🏾‍💻 Author
 Antônio Fernando de Araújo Silva
-### Como entrar em contato ?
-Caso queira discutir ou surgiu alguma dúvida pode estar entrando em contato:
+### How to contact?
+If you want to discuss or if you have any questions, please contact:
 
 [![Gmail](https://img.shields.io/badge/Gmail-darkred?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afas@academico.ufpb.br)
